@@ -106,7 +106,7 @@ import axios from '../axios'
                     birthDate      : new Date(user.birthdate).toISOString().slice(0, 10),
                     presentAddress : user.present_address,
                     contactNumber  : user.contact_number,
-                    emailAddress   : user.email_address
+                    emailAddress   : user.email_address 
                 }
                 this.updateMode     = true
             },
